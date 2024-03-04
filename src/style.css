@@ -1,0 +1,32 @@
+.movie-list-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  }
+  
+  .movie-item {
+    text-align: center; 
+  }
+  
+  .movie-poster {
+    width: 200px;
+  }
+  
+  .movie-title {
+    margin-top: 5px;
+  }
+  body{
+    background-color: black;
+  }
+
+button:hover{
+    background-color: red;
+}
+h1{
+    color: white;
+}
+  
+p{
+    color: white;
+}
